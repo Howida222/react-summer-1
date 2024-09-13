@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+/* Navbar Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.cart-icon {
+    background-color: #ff9800;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+}
+
+#cart-count {
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+/* Books Section */
+.books {
+    padding: 20px;
+    text-align: center;
+}
+
+.book-list {
+    display: flex;
+    justify-content: center;
+}
+
+.book-item {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 200px;
+    text-align: center;
+}
+
+.book-item img {
+    width: 100px;
+}
+
+.add-to-cart {
+    background-color: #008cba;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-to-cart:hover {
+    background-color: #005f5f;
+}
+
+/* Cart Section */
+.cart {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+#cart-items li {
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
